@@ -21,10 +21,10 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"PauIglesias\\MergeArgs\\ArgsMergerServiceProvider"
+				"PauIglesias\\ArgsMerger\\ArgsMergerServiceProvider"
 			],
 			"aliases": {
-				"MergeArgs": "PauIglesias\\ArgsMerger\\Facade"
+				"Merger": "PauIglesias\\ArgsMerger\\Facade"
 			}
 		}
 	}
