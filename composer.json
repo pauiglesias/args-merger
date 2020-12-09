@@ -1,0 +1,31 @@
+{
+	"name": "pauiglesias/args-merger",
+	"description": "PHP package intented merge input arguments by overwriting and/or extending default arguments.",
+	"keywords": ["args", "arguments", "merge", "merger"],
+	"homepage": "https://github.com/pauiglesias/merge-args",
+	"License": "GPL-3.0-or-later",
+	"authors": [
+		{
+			"name": "Pau Iglesias",
+			"homepage": "https://github.com/pauiglesias"
+		}
+	],
+	"autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+		"psr-4": {
+		 	"PauIglesias\\ArgsMerger\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"PauIglesias\\MergeArgs\\ArgsMergerServiceProvider"
+			],
+			"aliases": {
+				"MergeArgs": "PauIglesias\\ArgsMerger\\Facade"
+			}
+		}
+	}
+}
