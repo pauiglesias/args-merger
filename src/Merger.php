@@ -1,13 +1,11 @@
 <?php
 
-// Package namespace
 namespace PauIglesias\ArgsMerger;
 
-// Dependencies
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Facade class
+ * Main Class facade
  */
 class Merger extends Facade {
 	protected static function getFacadeAccessor() {

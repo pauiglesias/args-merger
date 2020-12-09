@@ -8,7 +8,7 @@ if (!function_exists('merge_args')) {
 	 *
 	 * @return 	array 	Array of merged arguments
 	 */
-	function merge_args($defaultArgs, $inputArgs, $options = []) {
+	function merge_args(array $defaultArgs, array $inputArgs, array $options = []) {
 		return app(PauIglesias\ArgsMerger\ArgsMerger::class)->merge($defaultArgs, $inputArgs, $options);
 	}
 }

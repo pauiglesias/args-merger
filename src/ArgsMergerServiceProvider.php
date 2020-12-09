@@ -1,9 +1,7 @@
 <?php
 
-// Package namespace
 namespace PauIglesias\ArgsMerger;
 
-// Dependencies
 use Illuminate\Support\ServiceProvider;
 
 /**
